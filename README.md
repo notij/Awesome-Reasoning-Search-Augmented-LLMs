@@ -46,7 +46,7 @@
  ```AAAI 2026```     
 [[Paper](https://arxiv.org/abs/2511.07943)] [[GitHub](https://github.com/OpenSPG/KAG-Thinker)] [[Model (7B)](https://huggingface.co/OpenSPG/KAG-Thinker-en-7b-instruct)] [[Dataset](https://huggingface.co/datasets/OpenSPG/KAG-Thinker-training-dataset)]
 
-- **(MEMSEARCHER)** MemSearcher: Training LLMs to Reason, Search and Manage Memory via End-to-End Reinforcement Learning ```arXiv```     
+- **(MemSearcher)** MemSearcher: Training LLMs to Reason, Search and Manage Memory via End-to-End Reinforcement Learning ```arXiv```     
 [[Paper](https://arxiv.org/abs/2511.02805)] [[GitHub](https://github.com/icip-cas/MemSearcher)] 
 
 - **(R1-Searcher)** R1-Searcher: Incentivizing the Search Capability in LLMs via Reinforcement Learning ```arXiv```     
@@ -80,26 +80,110 @@
 
 <h3 id="Multi‑Agent">Multi‑Agent / Modular RL Frameworks</h3>
 
-- **()**  ``` ```     
-[[Paper]()] [[GitHub]()] [[Models]()]
+- **(VerlTool)** VerlTool: Towards Holistic Agentic Reinforcement Learning with Tool Use ```arXiv```     
+[[Paper](https://arxiv.org/abs/2509.01055)] [[GitHub](https://github.com/TIGER-AI-Lab/verl-tool)] 
+
+- **(MemSearcher)** MemSearcher: Training LLMs to Reason, Search and Manage Memory via End-to-End Reinforcement Learning ```arXiv```     
+[[Paper](https://arxiv.org/abs/2511.02805)] [[GitHub](https://github.com/icip-cas/MemSearcher)] 
+
+- **(R1-Searcher)** R1-Searcher: Incentivizing the Search Capability in LLMs via Reinforcement Learning ```arXiv```     
+[[Paper](https://arxiv.org/abs/2503.05592)] [[GitHub](https://github.com/RUCAIBox/R1-Searcher)] 
+
+- **(CoRAG)** Chain-of-Retrieval Augmented Generation ```NeurIPS 2025```     
+[[Paper](https://arxiv.org/abs/2501.14342)] [[GitHub](https://github.com/microsoft/LMOps/tree/main/corag)] [[Model (8B)](https://huggingface.co/corag/CoRAG-Llama3.1-8B-MultihopQA)]
+
+- **(DeepResearcher)** DeepResearcher: Scaling Deep Research via Reinforcement Learning in Real-world Environments ```EMNLP 2025```     
+[[Paper](https://arxiv.org/abs/2504.03160)] [[GitHub](https://github.com/GAIR-NLP/DeepResearcher)] [[Model (7B)](https://huggingface.co/GAIR/DeepResearcher-7b)]
+
+- **(SmartRAG)** SmartRAG: Jointly Learn RAG-Related Tasks From the Environment Feedback ```ICLR 2025```     
+[[Paper](https://arxiv.org/abs/2410.18141)] [[GitHub](https://github.com/gaojingsheng/SmartRAG)] [[Model (7B)](https://github.com/AkariAsai/self-rag)]
+
+
 
 <h3 id="Long-Horizon">Efficiency and Long‑Horizon RL</h3>
 
-- **()**  ``` ```     
-[[Paper]()] [[GitHub]()] [[Models]()]
+- **(ASearcher)** Beyond Ten Turns: Unlocking Long-Horizon Agentic Search with Large-Scale Asynchronous RL ```arXiv```     
+[[Paper](https://arxiv.org/abs/2508.07976)] [[GitHub](https://github.com/inclusionAI/ASearcher)] [[Models](https://huggingface.co/collections/inclusionAI/asearcher)] [[Dataset](https://huggingface.co/datasets/inclusionAI/ASearcher-train-data)]
+
+- **(ReSum)** ReSum: Unlocking Long-Horizon Search Intelligence via Context Summarization ```arXiv```     
+[[Paper](https://arxiv.org/abs/2509.13313)] [[GitHub](https://github.com/Alibaba-NLP/DeepResearch)] [[Model (30B)](https://huggingface.co/Alibaba-NLP/Tongyi-DeepResearch-30B-A3B)] [[Blog](https://tongyi-agent.github.io/blog/introducing-tongyi-deep-research/)]
+
+- **(SEM)** SEM: Reinforcement Learning for Search-Efficient Large Language Models ```arXiv```     
+[[Paper](https://arxiv.org/abs/2509.08827)] 
+
+- **(s3)** s3: You Don't Need That Much Data to Train a Search Agent via RL ```EMNLP 2025```     
+[[Paper](https://arxiv.org/pdf/2505.14146)] [[GitHub](https://github.com/pat-jj/s3)] [[Dataset](https://huggingface.co/datasets/pat-jj/s3_processed_data)]
+
+- **(MemSearcher)** MemSearcher: Training LLMs to Reason, Search and Manage Memory via End-to-End Reinforcement Learning ```arXiv```     
+[[Paper](https://arxiv.org/abs/2511.02805)] [[GitHub](https://github.com/icip-cas/MemSearcher)] 
 
 ## Prompt-Based and Supervised Search Agents {#promptbased-and-supervised-search-agents}
-- **()**  ``` ```     
-[[Paper]()] [[GitHub]()] [[Models]()]
+- **(Search-o1)** Search-o1: Agentic Search-Enhanced Large Reasoning Models ```EMNLP 2025 (Oral)```     
+[[Paper](https://arxiv.org/abs/2501.05366)] [[GitHub](https://github.com/RUC-NLPIR/Search-o1)] [[Project](https://search-o1.github.io/)] 
+
+- **(AutoRefine)** Search and Refine During Think: Facilitating Knowledge Refinement for Improved Retrieval-Augmented Reasoning ```NeurIPS 2025 (Poster)```     
+[[Paper](https://arxiv.org/abs/2505.11277)] [[GitHub](https://github.com/syr-cn/AutoRefine)] [[Model (3B)](https://huggingface.co/yrshi/AutoRefine-Qwen2.5-3B-Base)]
+
+- **(DualRAG)** DualRAG: A Dual-Process Approach to Integrate Reasoning and Retrieval for Multi-Hop Question Answering ```ACL 2025```     
+[[Paper](https://arxiv.org/abs/2504.18243)] [[GitHub](https://github.com/cbxgss/rag)] [[Models]()]
+
+- **(PAR-RAG)** Credible Plan-Driven RAG Method for Multi-Hop Question Answering ```arXiv```     
+[[Paper](https://arxiv.org/abs/2504.16787)] [[GitHub]()] [[Models]()]
+
 
 ## Tree‑Search and Hierarchical Planning Approaches {#Tree-Search}
-- **()**  ``` ```     
-[[Paper]()] [[GitHub]()] [[Models]()]
+- **(THOUGHTSCULPT)** THOUGHTSCULPT: Reasoning with Intermediate Revision and Search ```NAACL 2025```     
+[[Paper](https://arxiv.org/abs/2404.05966)] [[GitHub](https://github.com/cyzus/thoughtsculpt)]
+
+- **(RATT)** RATT: A Thought Structure for Coherent and Correct LLM Reasoning ```AAAI 2025```     
+[[Paper](https://arxiv.org/abs/2406.02746)] [[GitHub](https://github.com/jinghanzhang1998/RATT)]
+
+- **(ReKG‑MCTS)** ReKG-MCTS: Reinforcing LLM Reasoning on Knowledge Graphs via Training-Free Monte Carlo Tree Search ```ACL Findings 2025```     
+[[Paper](https://aclanthology.org/2025.findings-acl.484/)] [[GitHub](https://github.com/ShawnKS/rekgmcts)] 
+
+- **(RARE)** RARE: Retrieval-Augmented Reasoning Enhancement for Large Language Models ```ACL 2025```     
+[[Paper](https://arxiv.org/abs/2412.02830)] [[GitHub](https://github.com/fatebreaker/RARE)]
+
+- **(HTP)** HyperTree Planning: Enhancing LLM Reasoning via Hierarchical Thinking ```ICML 2025```     
+[[Paper](https://arxiv.org/abs/2505.02322)] 
+
+- **(LPKG)** Learning to Plan for Retrieval-Augmented Large Language Models from Knowledge Graphs ```EMNLP 2024```     
+[[Paper](https://arxiv.org/abs/2406.14282)] [[GitHub](https://github.com/zjukg/LPKG)] [[Dataset](https://huggingface.co/datasets/zjukg/LPKG)]
 
 ## Retrieval‑Augmented Generation Variants {#Retrival-Augmented}
-- **()**  ``` ```     
-[[Paper]()] [[GitHub]()] [[Models]()]
+- **(RAG-R1)** RAG-R1: Incentivizing the Search and Reasoning Capabilities of LLMs through Multi-query Parallelism ```arXiv```     
+[[Paper](https://arxiv.org/abs/2507.02962)] [[GitHub](https://github.com/inclusionAI/AWorld-RL/tree/main/RAG-R1)] [[Models](https://huggingface.co/collections/endertzw/rag-r1)]
+
+- **(Open-RAG)** Open-RAG: Enhanced Retrieval-Augmented Reasoning with Open-Source Large Language Models ```EMNLP 2024```     
+[[Paper](https://arxiv.org/abs/2410.01782)] [[GitHub](https://github.com/ShayekhBinIslam/openrag)] [[Project](https://openragmoe.github.io/)] [[Model (7B)](https://huggingface.co/shayekh/openrag_llama2_7b_8x135m)] [[Dataset (Train)](https://huggingface.co/datasets/shayekh/openrag_train_data)] [[Dataset (Eval)](https://huggingface.co/datasets/shayekh/openrag_bench)]
+
+- **(KunLunBaizeRAG)** KunLunBaizeRAG: Reinforcement Learning Driven Inference Performance Leap for Large Language Models ```arXiv```     
+[[Paper](https://arxiv.org/abs/2506.19466)]
+
+- **(EviNote-RAG)** EviNote-RAG: Enhancing RAG Models via Answer-Supportive Evidence Notes ```ICLR 2026 UnderReview```     
+[[Paper](https://arxiv.org/abs/2509.00877)] [[GitHub](https://github.com/Da1yuqin/EviNoteRAG)] [[Model (7B)](https://huggingface.co/dayll/EviNoteRAG-7B)] [[Dataset](https://huggingface.co/datasets/dayll/EviNoteRAG_nq_hotpotqa_train_and_test_data)]
+
+- **(SmartRAG)** SmartRAG: Jointly Learn RAG-Related Tasks From the Environment Feedback ```ICLR 2025```     
+[[Paper](https://arxiv.org/abs/2410.18141)] [[GitHub](https://github.com/gaojingsheng/SmartRAG)] [[Model (7B)](https://github.com/AkariAsai/self-rag)]
+
+- **(ToolRL)** ToolRL: Reward is All Tool Learning Needs ```NeurIPS 2025 poster```     
+[[Paper](https://arxiv.org/abs/2504.13958)] [[GitHub](https://github.com/qiancheng0/ToolRL)] [[Models](https://huggingface.co/collections/emrecanacikgoz/toolrl)] [[Dataset](https://github.com/qiancheng0/ToolRL/tree/main/dataset)]
+
+- **(ZeroSearch)** ZeroSearch: Incentivize the Search Capability of LLMs without Searching ```arXiv```     
+[[Paper](https://arxiv.org/abs/2505.04588)] [[GitHub](https://github.com/Alibaba-NLP/ZeroSearch)] [[Models](https://huggingface.co/collections/sunhaonlp/zerosearch-policy-google-v1)]
+
+- **(R1-Searcher)** R1-Searcher: Incentivizing the Search Capability in LLMs via Reinforcement Learning ```arXiv```     
+[[Paper](https://arxiv.org/abs/2503.05592)] [[GitHub](https://github.com/RUCAIBox/R1-Searcher)] [[Model (Qwen)]( https://huggingface.co/XXsongLALA/Qwen-2.5-7B-base-RAG-RL)] [[Model (Llama)](https://huggingface.co/XXsongLALA/Llama-3.1-8B-instruct-RAG-RL)] [[Dataset](https://huggingface.co/datasets/XXsongLALA/RAG-RL-Hotpotqa-with-2wiki)]
+
+- **(MemSearcher)** MemSearcher: Training LLMs to Reason, Search and Manage Memory via End-to-End Reinforcement Learning ```arXiv```     
+[[Paper](https://arxiv.org/abs/2511.02805)] [[GitHub](https://github.com/icip-cas/MemSearcher)] 
 
 ## Knowledge Graph & Structured Retrieval {#Knowledge-Graph}
-- **()**  ``` ```     
-[[Paper]()] [[GitHub]()] [[Models]()]
+- **(LPKG)** Learning to Plan for Retrieval-Augmented Large Language Models from Knowledge Graphs ```EMNLP 2024```     
+[[Paper](https://arxiv.org/abs/2406.14282)] [[GitHub](https://github.com/zjukg/LPKG)] [[Dataset](https://huggingface.co/datasets/zjukg/LPKG)]
+
+- **(ReKG‑MCTS)** ReKG-MCTS: Reinforcing LLM Reasoning on Knowledge Graphs via Training-Free Monte Carlo Tree Search ```ACL Findings 2025```     
+[[Paper](https://aclanthology.org/2025.findings-acl.484/)] [[GitHub](https://github.com/ShawnKS/rekgmcts)] 
+
+- **(PAR-RAG)** Credible Plan-Driven RAG Method for Multi-Hop Question Answering ```arXiv```     
+[[Paper](https://arxiv.org/abs/2504.16787)] [[GitHub]()] [[Models]()]
