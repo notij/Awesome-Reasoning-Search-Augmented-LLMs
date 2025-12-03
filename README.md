@@ -3,16 +3,16 @@
 
 
 ## Contents
-- [Reinforcement-Learning–Based](#reinforcement-learning-based)
+- [Reinforcement-Learning-Based](#reinforcement-learning-based)
   - [Single‑Controller RL Agents](#Single-Agents)
   - [Multi‑Agent / Modular RL Frameworks](#Multi‑Agent)
   - [Efficiency and Long‑Horizon RL](#Long-Horizon)
-- [Prompt-Based and Supervised Search Agents](#promptbased-and-supervised-search-agents)
-- [Tree‑Search and Hierarchical Planning Approaches](#Tree-Search) 
-- [Retrieval‑Augmented Generation Variants](#Retrival-Augmented)
-- [Knowledge Graph & Structured Retrieval](#Knowledge-Graph)
+- [Prompt-Based and Supervised Search Agents](#prompt-based-and-supervised-search-agents)
+- [Tree‑Search and Hierarchical Planning Approaches](#tree-search-and-hierarchical-planning-approaches)  
+- [Retrieval-Augmented Generation Variants](#retrieval-augmented-generation-variants)
+- [Knowledge Graph & Structured Retrieval](#knowledge-graph--structured-retrieval)
   
-## Reinforcement-Learning–Based {#reinforcement-learning-based}
+## Reinforcement-Learning-Based
 <h3 id="Single-Agents">Single‑Controller RL Agents</h3>
 
 - **(Search-R1)** Search-R1: Training LLMs to Reason and Leverage Search Engines with Reinforcement Learning ```COLM 2025```     
@@ -117,7 +117,7 @@
 - **(MemSearcher)** MemSearcher: Training LLMs to Reason, Search and Manage Memory via End-to-End Reinforcement Learning ```arXiv```     
 [[Paper](https://arxiv.org/abs/2511.02805)] [[GitHub](https://github.com/icip-cas/MemSearcher)] 
 
-## Prompt-Based and Supervised Search Agents {#promptbased-and-supervised-search-agents}
+## Prompt-Based and Supervised Search Agents
 - **(Search-o1)** Search-o1: Agentic Search-Enhanced Large Reasoning Models ```EMNLP 2025 (Oral)```     
 [[Paper](https://arxiv.org/abs/2501.05366)] [[GitHub](https://github.com/RUC-NLPIR/Search-o1)] [[Project](https://search-o1.github.io/)] 
 
@@ -131,7 +131,7 @@
 [[Paper](https://arxiv.org/abs/2504.16787)] [[GitHub]()] [[Models]()]
 
 
-## Tree‑Search and Hierarchical Planning Approaches {#Tree-Search}
+## Tree-Search and Hierarchical Planning Approaches
 - **(THOUGHTSCULPT)** THOUGHTSCULPT: Reasoning with Intermediate Revision and Search ```NAACL 2025```     
 [[Paper](https://arxiv.org/abs/2404.05966)] [[GitHub](https://github.com/cyzus/thoughtsculpt)]
 
@@ -150,7 +150,7 @@
 - **(LPKG)** Learning to Plan for Retrieval-Augmented Large Language Models from Knowledge Graphs ```EMNLP 2024```     
 [[Paper](https://arxiv.org/abs/2406.14282)] [[GitHub](https://github.com/zjukg/LPKG)] [[Dataset](https://huggingface.co/datasets/zjukg/LPKG)]
 
-## Retrieval‑Augmented Generation Variants {#Retrival-Augmented}
+## Retrieval-Augmented Generation Variants
 - **(RAG-R1)** RAG-R1: Incentivizing the Search and Reasoning Capabilities of LLMs through Multi-query Parallelism ```arXiv```     
 [[Paper](https://arxiv.org/abs/2507.02962)] [[GitHub](https://github.com/inclusionAI/AWorld-RL/tree/main/RAG-R1)] [[Models](https://huggingface.co/collections/endertzw/rag-r1)]
 
@@ -178,7 +178,7 @@
 - **(MemSearcher)** MemSearcher: Training LLMs to Reason, Search and Manage Memory via End-to-End Reinforcement Learning ```arXiv```     
 [[Paper](https://arxiv.org/abs/2511.02805)] [[GitHub](https://github.com/icip-cas/MemSearcher)] 
 
-## Knowledge Graph & Structured Retrieval {#Knowledge-Graph}
+## Knowledge Graph & Structured Retrieval
 - **(LPKG)** Learning to Plan for Retrieval-Augmented Large Language Models from Knowledge Graphs ```EMNLP 2024```     
 [[Paper](https://arxiv.org/abs/2406.14282)] [[GitHub](https://github.com/zjukg/LPKG)] [[Dataset](https://huggingface.co/datasets/zjukg/LPKG)]
 
