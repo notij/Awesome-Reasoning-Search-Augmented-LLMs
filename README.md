@@ -29,22 +29,6 @@ We categorize the field into the following key dimensions:
 - **Search Interaction:** Single-step vs. Iterative/Interleaved
 - **Feedback Mechanism:** Open-loop vs. Self-Correcting (Closed-loop)
 
-## 📚 Paper List
-
-### 1. Survey Papers
-- **Reasoning with Large Language Models: A Survey** - *Chu et al. (2024)* [[arXiv]](link)
-- **A Survey on Retrieval-Augmented Generation** - *Gao et al. (2024)* [[arXiv]](link)
-
-### 2. Interleaved Reasoning & Search (Agentic RAG)
-- **ReAct: Synergizing Reasoning and Acting in Language Models** - *Yao et al. (ICLR 2023)*. The foundational paper introducing interleaved thought generation and action execution. [[PDF]](link) [[Code]](link)
-- **Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection** - *Asai et al. (ICLR 2024)*. Adds critique tokens to control retrieval demand. [[PDF]](link) [[Code]](link)
-
-### 3. Tool-Augmented Reasoning
-- **Toolformer: Language Models Can Teach Themselves to Use Tools** - *Schick et al. (NeurIPS 2023)*. End-to-end training for API calling. [[PDF]](link)
-
-*(Add more sections as per your repo structure...)*
-
-
 ## Contents
 - [Reinforcement-Learning-Based](#reinforcement-learning-based)
   - [Single‑Controller RL Agents](#Single-Agents)
@@ -54,7 +38,9 @@ We categorize the field into the following key dimensions:
 - [Tree‑Search and Hierarchical Planning Approaches](#tree-search-and-hierarchical-planning-approaches)  
 - [Retrieval-Augmented Generation Variants](#retrieval-augmented-generation-variants)
 - [Knowledge Graph & Structured Retrieval](#knowledge-graph--structured-retrieval)
-  
+
+## 📚 Paper List
+
 ### Reinforcement-Learning-Based
 <h3 id="Single-Agents">Single‑Controller RL Agents</h3>
 
