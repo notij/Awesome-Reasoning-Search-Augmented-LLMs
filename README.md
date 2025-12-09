@@ -21,7 +21,7 @@ The repository is part of our survey paper **[Reasoning-Search-Augmented LLMs: A
 
 ## 🧩 Taxonomy
 
-*(------- Insert the taxonomy diagram here! ---------)*
+![Taxonomy Diagram](taxonomy_diagram.png)
 
 We categorize the field into the following key dimensions:
 - **Architecture:** Modular (Agent-based) vs. End-to-End Trained
