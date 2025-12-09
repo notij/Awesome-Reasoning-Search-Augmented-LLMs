@@ -94,7 +94,7 @@ We categorize the field into the following key dimensions:
 [[Paper](https://arxiv.org/abs/2505.07903)] 
 
 - **(s3)** s3: You Don't Need That Much Data to Train a Search Agent via RL ```EMNLP 2025```     
-[[Paper](https://arxiv.org/pdf/2505.14146)] [[GitHub](https://github.com/pat-jj/s3)] [[Dataset](https://huggingface.co/datasets/pat-jj/s3_processed_data)] 
+[[Paper](https://arxiv.org/abs/2505.14146)] [[GitHub](https://github.com/pat-jj/s3)] [[Dataset](https://huggingface.co/datasets/pat-jj/s3_processed_data)] 
 
 - **(ToolRL)** ToolRL: Reward is All Tool Learning Needs ```NeurIPS 2025 poster```     
 [[Paper](https://arxiv.org/abs/2504.13958)] [[GitHub](https://github.com/qiancheng0/ToolRL)] [[Models](https://huggingface.co/collections/emrecanacikgoz/toolrl)] [[Dataset](https://github.com/qiancheng0/ToolRL/tree/main/dataset)]
@@ -141,7 +141,7 @@ We categorize the field into the following key dimensions:
 [[Paper](https://arxiv.org/abs/2509.08827)] 
 
 - **(s3)** s3: You Don't Need That Much Data to Train a Search Agent via RL ```EMNLP 2025```     
-[[Paper](https://arxiv.org/pdf/2505.14146)] [[GitHub](https://github.com/pat-jj/s3)] [[Dataset](https://huggingface.co/datasets/pat-jj/s3_processed_data)]
+[[Paper](https://arxiv.org/abs/2505.14146)] [[GitHub](https://github.com/pat-jj/s3)] [[Dataset](https://huggingface.co/datasets/pat-jj/s3_processed_data)]
 
 - **(MemSearcher)** MemSearcher: Training LLMs to Reason, Search and Manage Memory via End-to-End Reinforcement Learning ```arXiv 2025```     
 [[Paper](https://arxiv.org/abs/2511.02805)] [[GitHub](https://github.com/icip-cas/MemSearcher)] 
